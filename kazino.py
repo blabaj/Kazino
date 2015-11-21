@@ -2,7 +2,7 @@ skritoStevilo = 8
 vnos = 0
 konec = False
 nadaljevanje = True
-budget = int(raw_input("Vnesi koliko denarja zels porabiti. Za vsako igro je avtomat pobere 1\xe2\x82\xac: "))
+budget = int(raw_input("Vnesi koliko denarja zels porabiti. Za vsako igro avtomat pobere 1\xe2\x82\xac: "))
 while budget != 0 and konec != True:
     while (vnos != skritoStevilo and konec != True):
         budget = budget - 1
